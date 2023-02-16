@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+h1{
+    color: #e53170;
+    text-align: center;
+    padding: 20px;
+    width: 70%;
+    margin: 20px auto;
+}
+
+p{
+    text-align: center;
+    padding: 20px;
+    width: 70%;
+    margin: 20px auto;
+}
