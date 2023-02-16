@@ -65,3 +65,7 @@ data{
 .email{
     color: #63b5d7;
 }
+
+.row{
+    padding: 30px 0;
+}
