@@ -16,6 +16,43 @@ h1{
     color: #e53170;
 }
 
-p{
-    
+main{
+    width: 70%;
+    margin: auto;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+
+}
+
+.card-1 , .card-2 {
+    background-color: #0f0e17;
+    width: 30%;
+    float: left;
+}
+
+.card-3{
+    background-color: #0f0e17;
+    width: 30%;
+    float: right;
+
+}
+
+img{
+    float: left;
+}
+
+data{
+    float: left;
+}
+
+.name , .position{
+    color: white;
+}
+
+.email{
+    color: #63b5d7;
 }
