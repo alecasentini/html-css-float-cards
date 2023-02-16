@@ -2,18 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
 }
 
 header *{
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
     width: 70%;
     margin: 20px auto;
-
 }
 
 h1{
     color: #e53170;
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
 }
 
 main{
@@ -35,7 +41,9 @@ img{
 
 .card{
     background-color: #0f0e17;
-    width: 30%
+    width: 30%;
+    box-shadow: 0 0 10px;
+    font-size: 16px;
 }
 
 .card-1 , .card-2 {
@@ -54,12 +62,22 @@ img{
     float: left;
 }
 
-data{
+.data{
     float: left;
+    padding: 15px;
+    vertical-align: middle;
 }
 
 .name , .position{
     color: white;
+}
+
+.position{
+    margin: 5px 0;
+}
+
+.name{
+    font-family: 'Fredoka One', cursive;
 }
 
 .email{
@@ -69,3 +87,4 @@ data{
 .row{
     padding: 30px 0;
 }
+
